@@ -63,7 +63,7 @@
 
   </head>
 
-  <body>
+  <body style="background-image: url(img/back.jpg); color: #fff;">
 
     <!-- Navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar" style="">
@@ -71,7 +71,7 @@
 
         <!-- Brand -->
         <a class="navbar-brand" href="/">
-          <img src="img/logo.png" width=70px">
+        <img src="img/logo_new.png" width=100px">
         </a>
 
         <!-- Collapse -->
@@ -161,7 +161,7 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+            <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwY4p0eVuOdJPEvwvbQX-au73o7td6lLSIfaCGV/exec" data-email="vishnoi.kunal0@gmail.com"  >
 
                 <!--Grid row-->
                 <div class="row">
@@ -213,12 +213,12 @@
                 </div>
                 <!--Grid row-->
 
-            </form>
 
             <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <button class="btn btn-primary" type="submit">Send</button>
             </div>
             <div class="status"></div>
+            </form>
         </div>
         <!--Grid column-->
 
@@ -312,6 +312,8 @@
   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
   <!-- Bootstrap tooltips -->
   <script type="text/javascript" src="js/popper.min.js"></script>
+<!-- <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script> -->
+
   <!-- Bootstrap core JavaScript -->
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
